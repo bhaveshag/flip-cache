@@ -1,0 +1,9 @@
+
+logging: 
+  file: logs/flipcache.log
+
+Cache:
+  mechanism: lru
+
+LRU:
+  capacity: 100
